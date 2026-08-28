@@ -54,7 +54,7 @@ int main(int argc, char *argv[]) {
     while ((c = getchar()) != '\n' && c != EOF)
       ;
 
-    /*** Main Loic ***/
+    /*** Main Logic ***/
     switch (choice) {
     case 1: { // Add Note
       FILE *f_ptr = fopen(FILE_PATH, "a");
